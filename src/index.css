@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Jost';
-  src: url('../public/fonts/Jost-VariableFont_wght.ttf') format('ttf');
+
+@theme {
+  --color-blue-shade: #243c5a; 
+  --font-jost: 'Jost', sans-serif;
 }
 
 :root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: #2C558A;
-  background: linear-gradient(180deg,rgba(44, 85, 138, 1) 0%, rgba(11, 0, 23, 1) 100%);
+  background: linear-gradient(180deg,#2c558a 0%, #0b0017 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 

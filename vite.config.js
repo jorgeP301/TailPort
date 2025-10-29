@@ -17,7 +17,7 @@ export default defineConfig({
     },
     extend: {
       fontFamily: {
-        jost: ['Jost', 'sans-serif'],
+        'jost': ['Jost', 'sans-serif'],
       },
     },
   },

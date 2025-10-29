@@ -6,7 +6,7 @@ function About() {
     return (
         <div class='flex flex-1 flex-col'>
             <div class ='flex-1 p-6'>
-                    <h1 class="font-Jost text-[3.2em]">I'm Jorge Patino</h1>
+                    <h1 class="font-jost text-[3.2em]">W I'm Jorge Patino</h1>
                     <h2>Come get to know me!</h2>
             </div>
             <div class='flex flex-1 flex-col p-8 justify-between sm:flex-row sm:py-8 sm:px-2'>
