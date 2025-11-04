@@ -2,7 +2,8 @@
 
 
 @theme {
-  --color-blue-shade: #243c5a; 
+  --color-blue-shade-800: oklch(0.3515 0.0607 254.67);
+  --color-blue-shade-600: oklch(0.4815 0.0607 254.67);
   --font-jost: 'Jost', sans-serif;
 }
 
@@ -11,6 +12,10 @@
   color: rgba(255, 255, 255, 0.87);
   background: #2C558A;
   background: linear-gradient(180deg,#2c558a 0%, #0b0017 100%);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
