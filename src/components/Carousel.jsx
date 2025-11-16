@@ -30,6 +30,7 @@ function Carousel() {
             setNextIndex(picsLength - 1);
         }
     }
+
     return (
         <div id="full-component" className="">
             <div id="text-and-carousel" className="flex flex-col items-center gap-y-6">
@@ -54,7 +55,7 @@ function Carousel() {
                         <button className="cursor-pointer" onClick={handleForward}><CircleArrowRight className="active:fill-blue-900"/></button>
                     </div>
                 </div>
-                <div className="md:w-[600px] animate-fade-in">
+                <div key={nextIndex} className="md:w-[600px] animate-fade-in">
                     <span key={nextIndex} className="">{summaries[nextIndex]}</span>
                 </div>
             </div>
