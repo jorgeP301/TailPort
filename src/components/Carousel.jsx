@@ -36,6 +36,7 @@ function Carousel() {
     function handleForward() {
         setNextIndex((prevIndex) => (prevIndex < slidesLength - 1? prevIndex + 1 : 0));
     }
+    
     function handleBackward() {
         setNextIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : slidesLength - 1));
     }

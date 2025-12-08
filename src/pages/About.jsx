@@ -4,7 +4,7 @@ import headshot from "../assets/headshot.jpg";
 function About() {
         
     return (
-        <div className='flex flex-1 flex-col font-jost'>
+        <div className='flex flex-1 flex-col font-jost pb-10 pt-10'>
             <div className ='flex-1 p-6 '>
                     <h1 className="text-[3.2em]">I'm Jorge Patino</h1>
                     <h2>Come get to know me!</h2>
