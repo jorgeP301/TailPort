@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "../components/Carousel.jsx";
 import CardDisplay from "../components/CardDisplay.jsx";
-import WaveWord from "../components/WaveWord.jsx";
 
 function Projects() {
 
@@ -21,11 +20,10 @@ function Projects() {
                 <h2 className="text-2xl items-start">Work</h2>
                 <div className="flex flex-col gap-y-4">
                     <span>as an early professional I am currently working as an Associate Software Engineer primarily focused on client side development</span>
-                    <div className="flex flex-wrap justify-evenly sm:flex-row">
+                    <div className="flex flex-wrap justify-evenly sm:flex-row gap-4">
                         <CardDisplay cards={cards} />
                         <div className="content-center">
-                            <span className="pl-6 text-5xl font-bold bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">Click cards to flip!</span>
-                            <WaveWord />
+                            <span className="pl-6 text-5xl font-bold bg-linear-to-r from-pink-600 to-violet-500 bg-clip-text text-transparent">Click cards to flip!</span>
                         </div>
                     </div>
                 </div>
